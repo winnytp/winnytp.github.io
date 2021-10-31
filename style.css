@@ -29,6 +29,8 @@ footer > p {
 img {
     border-radius: 50%;
     user-select: none;
+    height: 140px;
+    width: 140px;
 }
 
 h1 {
@@ -140,3 +142,46 @@ button:hover {
 /* #contact:hover {
     color: black;
 } */
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        margin-top: 3rem;
+        font-size: 3rem;
+    }
+
+    img {
+        /* margin-top: 3rem;
+        height: 112px;
+        width: 112px;
+        margin-right: auto; */
+        display: none;
+    }
+
+    button {
+        margin-left: 0;
+    }
+
+    #buttons {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-height: 600px) and (min-width: 325px) {
+    img {
+        height: 100px;
+        width: 100px;
+        margin-top: 3rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    #buttons {
+        margin: 2rem 0;
+    }
+}
