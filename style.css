@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap');
+
+* {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #f5fcff;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+footer {
+    margin-top: auto;
+    padding: 15px;
+}
+
+footer > p {
+    font-size: .85rem;
+    font-weight: 500;
+}
+
+img {
+    border-radius: 50%;
+    user-select: none;
+}
+
+h1 {
+    margin: 5px 0;
+    font-size: 3.75rem;
+    font-weight: 400;
+    letter-spacing: -.1rem;
+    user-select: none;
+    line-height: 1.5;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    user-select: none;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: #2f80ed;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    margin: 10px 10px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    transition: box-shadow .7s, transform .5s;
+}
+
+button:hover {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), 
+                0 2px 4px rgba(0,0,0,0.05), 
+                0 4px 8px rgba(0,0,0,0.05), 
+                0 8px 16px rgba(0,0,0,0.05),
+                0 16px 32px rgba(0,0,0,0.05), 
+                0 32px 64px rgba(0,0,0,0.05);
+    cursor: pointer;
+    transform: scale(1.025);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.regular-text {
+    font-weight: 400;
+}
+
+.gradient-title {
+    font-weight: 600;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.double-underline {
+    font-weight: 900;
+    -webkit-text-decoration: #0072ff double underline;
+    text-decoration: #0072ff double underline;
+}
+
+.underline-once {
+    font-weight: 700;
+    -webkit-text-decoration: #0072ff solid underline;
+    text-decoration: #0072ff solid underline;
+    -webkit-text-underline-position: under;
+    text-underline-position: under;
+}
+
+#main {
+    height: 75vh;
+    max-width: 75vw;
+    padding-top: 8vh;
+}
+
+#buttons {
+    margin: 3rem 0;
+    margin-bottom: 1.5rem;
+}
+
+#resume {
+    background: #2f80ed;
+    color: white;
+}
+
+#contact {
+    border: 2px solid rgba(0, 0, 0, 0.35);
+    background: none;
+    color: rgba(0,0,0,0.5);
+    /* transition: color 1s; */
+}
+
+/* #contact:hover {
+    color: black;
+} */
